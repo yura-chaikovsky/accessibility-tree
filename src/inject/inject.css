@@ -1,0 +1,151 @@
+#a11yContainer {
+    z-index: 2147483638;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#a11yContainer .a11y-rect {
+    position: absolute;
+    box-shadow: 0 0 3px 2px rgba(255,255,255,.5);
+    background: rgba(254,94,95,.3);
+    background-blend-mode: darken;
+}
+#a11yContainer .a11y-rect:before {
+    transform: translate(-100%, -3px);
+    display: inline-block;
+    padding: 0 .2rem;
+    font-size: 0.8em;
+    border-radius: .3rem;
+}
+#a11yContainer .a11y-rect.a11y-link {
+    border: 3px solid #00ff05;
+}
+#a11yContainer .a11y-rect.a11y-link:before {
+    content: "a";
+    background: #05f60e;
+}
+#a11yContainer .a11y-rect.a11y-button {
+    border: 3px solid #e100ff;
+}
+#a11yContainer .a11y-rect.a11y-button:before {
+    content: "b";
+    background: #e100ff;
+}
+#a11yContainer .a11y-rect.a11y-tab {
+    border: 3px solid #AA4465;
+}
+#a11yContainer .a11y-rect.a11y-tab:before {
+    content: "T";
+    background: #AA4465;
+}
+#a11yContainer .a11y-rect.a11y-tabpanel {
+    border: 3px solid #AA4465;
+}
+#a11yContainer .a11y-rect.a11y-tabpanel:before {
+    content: "TP";
+    background: #AA4465;
+}
+#a11yContainer .a11y-rect.a11y-heading {
+    border: 3px solid #ffae00;
+}
+#a11yContainer .a11y-rect.a11y-heading:before {
+    content: "h";
+    background: #ffae00;
+}
+#a11yContainer .a11y-rect.a11y-image:before {
+    content: "i";
+    background: rgba(254,94,95,.3);
+}
+#a11yContainer .a11y-rect.a11y-staticText {
+    z-index: -1;
+}
+#a11yContainer .a11y-rect.a11y-staticText:before {
+    content: "t";
+    background:  rgba(254,94,95,.3);
+}
+
+
+#a11yContainer .a11y-rect.a11y-main {
+    background-color: rgba(255, 113, 91, .3)
+}
+#a11yContainer .a11y-rect.a11y-main:before {
+    content: "main";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background: rgb(255, 113, 91);
+}
+#a11yContainer .a11y-rect.a11y-complementary {
+    background-color: rgba(249, 203, 64, .3)
+}
+#a11yContainer .a11y-rect.a11y-complementary:before {
+    content: "aside";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(160, 120, 0)
+}
+#a11yContainer .a11y-rect.a11y-navigation {
+    background-color: rgba(47, 82, 224, .3)
+}
+#a11yContainer .a11y-rect.a11y-navigation:before {
+    content: "navigation";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(47, 82, 224)
+}
+#a11yContainer .a11y-rect.a11y-banner {
+    background-color: rgba(139, 38, 53, .3)
+}
+#a11yContainer .a11y-rect.a11y-banner:before {
+    content: "banner";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(139, 38, 53)
+}
+#a11yContainer .a11y-rect.a11y-form {
+    background-color: rgba(188, 237, 9, .3)
+}
+#a11yContainer .a11y-rect.a11y-form:before {
+    content: "form";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(115, 145, 9)
+}
+#a11yContainer .a11y-rect.a11y-search {
+    background-color: rgba(247, 197, 159, .3)
+}
+#a11yContainer .a11y-rect.a11y-search:before {
+    content: "search";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(182, 107, 50)
+}
+#a11yContainer .a11y-rect.a11y-genericContainer {
+    background-color: rgba(113, 129, 109, .3)
+}
+#a11yContainer .a11y-rect.a11y-genericContainer:before {
+    content: "genericContainer";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(113, 129, 109)
+}
+#a11yContainer .a11y-rect.a11y-region {
+    background-color: rgba(69, 105, 144, .3)
+}
+#a11yContainer .a11y-rect.a11y-region:before {
+    content: "region";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(69, 105, 144)
+}
+#a11yContainer .a11y-rect.a11y-contentInfo {
+    background-color: rgba(165, 255, 214, .3)
+}
+#a11yContainer .a11y-rect.a11y-contentInfo:before {
+    content: "contentInfo";
+    transform: translate(0, -3px);
+    color: rgb(240, 248, 255);
+    background-color: rgb(60, 148, 109)
+}
