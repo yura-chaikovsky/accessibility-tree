@@ -14,6 +14,8 @@ All layers have title in format `[lang] <tag-name[:href|type]> text that screen 
 ## Landmarks
 ![Landmark mode](https://github.com/yura-chaikovsky/accessibility-tree/raw/master/icons/keyL-landmarks.png)
 
+Left click on landmark adds content layers inside selected landmark.
+
 ## Shortcuts
 
 Key       | Description
@@ -23,3 +25,6 @@ Key       | Description
 **Key P** | Content mode (with pseudo classes)
 **Key H** | Hide all
 **Key T** | Transparent mode (makes layers non-interactive)
+
+## Copyrights
+*Template used on srceenshots provided by https://colorlib.com/*
