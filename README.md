@@ -16,7 +16,7 @@ All layers have title in format `[lang] <tag-name[:href|type]> text that screen 
 
 Left click on landmark adds content layers inside selected landmark.
 
-## Shortcuts
+## Keyboard shortcuts
 
 Key       | Description
 ----------|----------------------------------------------
